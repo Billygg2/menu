@@ -39,6 +39,19 @@ class MenuLateral extends StatelessWidget {
               color: Color.fromARGB(176, 212, 212, 54),
             ),
           ),
+          Padding(padding: EdgeInsets.all(14.0), child: Text("Etiqueta 1")),
+          ListTile(
+            leading: Icon(Icons.home),
+            title: Text("Home"),
+          ),
+          ListTile(
+            leading: Icon(Icons.shopping_cart),
+            title: Text("Carrito"),
+          ),
+          ListTile(
+            leading: Icon(Icons.favorite),
+            title: Text("Favoritos"),
+          )
         ],
       )),
     );
